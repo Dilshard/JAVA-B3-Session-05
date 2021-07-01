@@ -4,20 +4,18 @@ public class Main {
 
     public static void main(String[] args) {
 
-        total(57,88,99);
-        total(45,65,78);
-
+        int newTotal = total(45,45) + 100 / 2 * 10;
+        System.out.println(newTotal);
     }
 
-    public static void total(int mk1, int mk2, int mk3){
-        int total = mk1 + mk2 + mk3;
-        System.out.println("Total :"+total);
-
-        avg(total);
+    public static int total(int mk1, int mk2){
+        int total = mk1 + mk2;
+        return total;
     }
 
-    public static void avg(int asky){
-        double avg = asky / 3;
-        System.out.println("Average :"+avg);
+    public static void total2(int mk1, int mk2){
+        int total = mk1 + mk2;
+        System.out.println(total);
     }
+
 }
