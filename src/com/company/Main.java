@@ -4,6 +4,11 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Payment pay1 = new Payment();
+
+        pay1.name = "Asky";
+        pay1.sample();
+
         Book book1 = new Book();
 
         book1.bookTitle = "Learn JAVA";
