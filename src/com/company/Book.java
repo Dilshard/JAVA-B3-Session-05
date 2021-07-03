@@ -1,6 +1,6 @@
 package com.company;
 
-public class Book {
+public class Book extends Delivery{
 
     String bookTitle;
     int noOfPages;
@@ -15,6 +15,11 @@ public class Book {
         System.out.println("Author Name : "+authorName);
         System.out.println("Publisher: "+publisher);
         System.out.println();
+    }
+
+    public void bookCustomerDetails(){
+        System.out.println("This is Book customer Details method!");
+
     }
 
 }
